@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+     <meta charset="utf-8"/>
+     <title>formulaire d'inscription</title>
+     <link rel="stylesheet" href="bootstrap.css">
+     <link rel="stylesheet" href="bootstrap.min.css">
+     
+     
+</head>
+    <body>
+     
+        <div class="p-3 mb-2 bg-primary text-white text-center">INSCRIPTION A LA FORMATION CONTINUE DANS LA FACULTE DES SCIENCES ET TECHNIQUES </div>
+        <div class="container">
+            <div class="row">
+               <div class="col-md-6 offset-3">
+                   <form>
+                    
+                        <div class="row">
+                          <div class="col">
+                            <label>Nom :</label>  
+                            <input type="text" class="form-control" placeholder="votre nom">
+                          </div>
+                          <div class="col">
+                            <label>Prénom :</label>
+                            <input type="text" class="form-control" placeholder="votre prénom">
+                          </div>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" placeholder="name@example.com">
+                        </div>
+                             
+                        <div class="form-group">
+                            <label>diplôme actuel :</label>
+                            <select class="form-control">
+                                <option>choisir le diplôme </option>
+                                <option>Brevet de technicien supérieur BTS</option>
+                                <option>Diplôme universitaire de technologie DUT</option>
+                                <option>Diplôme des établissements de la formation professionnelle (ISTA)</option>
+                                <option>les classes préparatoires</option>
+
+                            </select>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label>Formation continue D.C.A (bac+3) :</label>
+                            <select class="form-control">
+                                <option>choisir la filière</option>
+                                <option>Développement et systèmes d'information</option>
+                                <option>Maintenance et Organisation Industrielle</option>
+                                <option>Ingénierie de la maintenance industrielle</option>
+                                <option>Management de la qualité et de la productivité</option>
+
+                            </select>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="example-date-input">Date de naissance :</label>
+                            <div >
+                              <input class="form-control" type="date" value="2000-01-01" id="example-date-input">
+                            </div>
+                          </div>
+
+                          <div class="form-group row">
+                            <label for="example-tel-input" >Telephone :</label>
+                            <div >
+                              <input class="form-control" type="tel" placeholder="entrer votre numéro de téléphone">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label >Adresse :</label>
+                            <textarea class="form-control" rows="1"></textarea>
+                          </div>
+
+
+
+                         <label>sexe :</label>
+                        <div class="form-check">
+            
+                            <input class="form-check-input" type="radio" name="sexe" id="femme" checked>
+                            <label class="form-check-label" for="femme">
+                              femme
+                            </label>
+                          </div>
+
+                         
+                          <div class="form-check">
+         
+                            <input class="form-check-input" type="radio" name="sexe" id="homme" >
+                            <label class="form-check-label" for="homme">
+                              homme
+                            </label>
+                          </div>
+                          <button type="button" class="btn btn-secondary">Annuler</button>
+                          <button type="button" class="btn btn-success">Envoyer</button>
+
+
+                   </form>
+               </div>
+            </div>
+  
+
+        </div>
+     
+    </body>
+
+</html>
+
